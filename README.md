@@ -30,6 +30,9 @@ Build Steps
 - With Android Studio: "Open An Existing Android Studio Project" or "File" > "Open", then navigate to & select project's build.gradle file.
 - On Command Line: set up ANDROID_HOME and ANDROID_NDK_HOME to your SDK and NDK path, cd to individual sample dir, and do "gradlew assembleDebug"
 
+Known Issues
+-----------
+- URI Player streaming is [broken](https://github.com/googlesamples/android-ndk/issues/229)
  
 Support
 -------
